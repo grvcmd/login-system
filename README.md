@@ -1,2 +1,4 @@
-# py-beginner-projects
-5 Python projects for beginners that Tech With Tim recommends.
+# Login System
+A small login system project
+
+Recommended by Tech With Tim: https://www.youtube.com/watch?v=1HHRWg--Ce4
