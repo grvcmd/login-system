@@ -5,6 +5,8 @@ Created by Ken Valverde
 
 """
 
+from util import register_functions
+
 
 class User:
     def __init__(self, name, username, password):
@@ -14,6 +16,17 @@ class User:
 
     # Functions will go here
 
+    def print_user(self):
+        print("\nWelcome", self.name)
+        print("Here are your account details:")
+        print("Username: {}\nPassword: {}".format(self.username, self.password))
+
 
 if __name__ == '__main__':
-    pass
+    user = User(
+        register_functions.get_name(),
+        register_functions.get_username(),
+        register_functions.get_password(),
+    )
+
+    user.print_user()
