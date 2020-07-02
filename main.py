@@ -18,7 +18,7 @@ class User:
 
     def print_user(self):
         print("\nWelcome", self.name)
-        print("Here are your account details:")
+        print("Account details:")
         print("Username: {}\nPassword: {}".format(self.username, self.password))
 
 
